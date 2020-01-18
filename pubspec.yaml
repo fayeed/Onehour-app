@@ -1,0 +1,62 @@
+name: onehour
+description: A time tracking app build using Flutter.
+version: 1.0.0
+homepage: "https://github.com/fayeed/Onehour-app"
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+  flutter_bloc: ^0.21.0
+  equatable: ^0.5.1
+  firebase_auth: ^0.14.0+5
+  cloud_firestore: ^0.12.9+2
+  firebase_remote_config: ^0.2.0+7
+  firebase_admob: ^0.9.0+7
+  firebase_analytics: ^4.0.2
+  permission_handler: ^3.2.2
+  rate_my_app: ^0.3.0+4
+  share: ^0.6.2+1
+  google_sign_in: ^4.0.7
+  flutter_facebook_login: ^2.0.1
+  meta: ^1.1.7
+  logger: ^0.7.0+2
+  hydrated_bloc: ^0.4.0
+  shared_preferences: ^0.5.3+4
+  font_awesome_flutter: ^8.5.0
+  url_launcher: ^5.1.2
+  flushbar: ^1.9.0
+  keyboard_visibility: ^0.5.6
+  datetime_picker_formfield: ^0.4.3
+  intl: ^0.15.8
+  flutter_local_notifications: ^0.8.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+dependency_overrides:
+  meta: ^1.1.7
+
+flutter_icons:
+  image_path: "store_assets/icon.png"
+  android: true
+  ios: true
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/icon.png
+
+  fonts:
+    - family: MyriadPro
+      fonts:
+        - asset: assets/fonts/MyriadProRegular.otf
+        - asset: assets/fonts/MyriadProBold.otf
+          weight: 700
